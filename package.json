@@ -1,0 +1,27 @@
+{
+  "name": "testing-practices",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dulip-sameera/testing-practices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dulip-sameera/testing-practices/issues"
+  },
+  "homepage": "https://github.com/dulip-sameera/testing-practices#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.5",
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.3.1"
+  }
+}
